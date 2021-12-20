@@ -117,7 +117,7 @@ export default class SearchScreen extends Component {
       .join(" ");
 
     var transactionType =
-      item.transaction_type === "issue" ? "entregue" : "devolvido";
+      item.transaction_type === "issue" ? "retirado" : "devolvido";
     return (
       <View style={{ borderWidth: 1 }}>
         <ListItem key={i} bottomDivider>
